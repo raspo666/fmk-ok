@@ -48,7 +48,7 @@ struct global
 	uint32_t tv_address;
 	uint32_t tv_offset;
 	uint32_t key;
-} globals;
+} ;//;lobals;
 
 void mkdir_p(char *dir);
 char *make_path_safe(char *path);
