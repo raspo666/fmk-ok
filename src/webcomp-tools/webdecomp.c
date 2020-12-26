@@ -14,6 +14,11 @@
 #include "common.h"
 #include "webdecomp.h"
 
+
+
+extern struct global globals;
+
+
 int main(int argc, char *argv[])
 {
 	char *httpd = NULL, *www = NULL, *dir = NULL;
